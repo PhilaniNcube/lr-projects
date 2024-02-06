@@ -1,4 +1,8 @@
+import AboutHero from "./_components/about-hero";
+
 const About = () => {
-  return <div>About</div>;
+  return <main>
+    <AboutHero />
+  </main>;
 };
 export default About;
