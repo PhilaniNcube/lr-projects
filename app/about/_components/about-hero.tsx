@@ -11,7 +11,7 @@ const AboutHero = () => {
 								Transforming the built environment through groundbreaking
 								designs
 							</h2>
-							<p className="mt-4 font-thin text-white text-md">
+							<p className="mt-4 text-sm font-thin text-white">
 								LR Projects, founded in 2009 by the esteemed Civil Engineering
 								Technician, Loyiso Ranuga, represents a journey of preparation,
 								strategic development, and profound industry insight. Bringing

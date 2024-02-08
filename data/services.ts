@@ -44,3 +44,41 @@ export const general_construction = [
     description: "Our expertise extends to the construction of secure and aesthetically pleasing boundary walls and fencing. We understand the importance of security and privacy for properties, and we provide tailored solutions that blend strength with design. Our boundary solutions cater to a range of needs, from residential privacy to commercial security, ensuring each installation is both effective and visually appealing."
   }
 ]
+
+export const values = [
+  {
+    name: "Innovation and Creativity",
+    description: "We constantly challenge conventional methods to bring forward-thinking solutions to the forefront of our projects.",
+    image: "/images/innovation.webp"
+  },
+  {
+    name: "Community Impact",
+    description: "Our work is driven by a desire to positively impact communities, fostering growth, resilience, and prosperity.",
+    image: "/images/community.webp"
+  },
+  {
+    name: "Quality and Excellence",
+    description: "Our commitment to superior craftsmanship and attention to detail underpins every project we undertake.",
+    image: "/images/quality.webp"
+  },
+  {
+    name: "Collaboration and Partnership",
+    description: "We believe in the power of teamwork and partnership, working closely with clients, stakeholders, and communities to achieve shared goals.",
+    image: "/images/collaboration.webp"
+  },
+  {
+    name: "Integrity and Transparency",
+    description: "We maintain the highest ethical standards, ensuring honesty and openness in all our interactions.",
+    image: "/images/integrity.webp"
+  },
+  {
+    name: "Adaptability and Growth",
+    description: "Embracing change and continuous learning, we adapt to new challenges and opportunities in the ever-evolving landscape of civil engineering.",
+    image: "/images/growth.webp"
+  },
+  {
+    name: "Sustainability and Responsibility",
+    description: "We are dedicated to environmental stewardship, creating infrastructure that respects and preserves our planet for future generations.",
+    image: "/images/sustainability.webp"
+  },
+]
