@@ -85,10 +85,10 @@ const Solutions = () => {
 						</div>
 						<div className="flex flex-col justify-center w-full px-6 lg:w-1/2 overflow-clip">
 							<span className="mb-4 text-sm text-zinc-700">Solutions</span>
-							<h2 className="mb-4 text-3xl font-medium lg:text-5xl text-zinc-700 title">
+							<h2 className="mb-4 text-3xl font-medium lg:text-5xl text-zinc-950 title">
 								Building Foundations, Delivering Success
 							</h2>
-							<p className="mb-6 text-sm text-zinc-700 description">
+							<p className="mb-6 text-sm text-yellow-600 description">
 								LR Projects offers a comprehensive range of services and
 								solutions, underpinned by a robust asset base, to meet the
 								diverse needs of our clients in the civil engineering and

@@ -29,7 +29,7 @@ const services = [
 			"Reinforced Concrete Structures",
 			"Stormwater Drainage",
 		],
-		image: "/images/cement.webp",
+		image: "/images/civil-engineering.jpeg",
 	},
 	{
 		title: "General Building Construction",
@@ -42,7 +42,7 @@ const services = [
 			"Industrial Buildings",
 			"Boundary Walls & Fencing",
 		],
-		image: "/images/excavation.webp",
+		image: "/images/building-services.jpeg",
 	},
 ];
 
@@ -104,10 +104,10 @@ const AnimatedSection = () => {
 										)}
 									>
 										<div className="col-span-2 pr-3 lg:col-span-1">
-											<h3 className="mb-4 text-2xl font-medium lg:text-4xl text-zinc-700">
+											<h3 className="mb-4 text-2xl font-medium lg:text-4xl text-zinc-950">
 												{service.title}
 											</h3>
-                      <p className="mb-4 text-lg leading-5 text-balance text-zinc-700">{service.description}</p>
+                      <p className="mb-4 text-lg leading-5 text-yellow-600 text-balance">{service.description}</p>
 											<ul className="pl-8 font-thin list-disc">
 												{service.items.map((item) => (
 													<li key={item} className="text-lg text-zinc-700">

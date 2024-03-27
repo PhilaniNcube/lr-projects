@@ -8,11 +8,11 @@ const HomePageMission = () => {
 			<section className="container p-8 mt-8 bg-white rounded-3xl">
 				<div className="grid grid-cols-5 gap-4">
 					<div className="flex flex-col justify-around col-span-5 md:col-span-3">
-						<p className="font-thin text-md">Mission</p>
-						<h2 className="text-2xl md:text-3xl">
+						<p className="font-thin text-black text-md">Mission</p>
+						<h2 className="text-2xl text-yellow-600 md:text-3xl">
 							Building a <span className="underline">Legacy of Quality</span>
 						</h2>
-						<h3 className="mt-6 text-md lg:text-lg leading-6 text-balance max-w-[50ch]">
+						<h3 className="mt-6 text-sm leading-6 text-balance ">
 							LR Projects is dedicated to redefining the standards of civil
 							engineering through strategic development, meticulous execution,
 							and an unwavering commitment to excellence. We strive to deliver
@@ -20,7 +20,20 @@ const HomePageMission = () => {
 							society but also anticipate and address the challenges of the
 							future. Our mission is to build resilient, efficient, and
 							sustainable environments, thereby enhancing the quality of life
-							for communities and contributing to the broader economic landscape.
+							for communities and contributing to the broader economic
+							landscape.
+						</h3>
+						<h3 className="mt-6 text-sm leading-6 text-balance ">
+							In addition to our core civil engineering services, LR Projects
+							also offers comprehensive plant hire solutions. We understand the
+							importance of having access to reliable and well-maintained
+							equipment for any construction project. Our extensive fleet of
+							machinery includes excavators, graders, loaders, and more, all
+							available for short-term or long-term hire. Our experienced team
+							can assist you in selecting the right equipment for your specific
+							needs and ensure it is delivered to your site on time and within
+							budget. With LR Projects, you can focus on your construction
+							project while we take care of the equipment.
 						</h3>
 						<Button
 							className="rounded-full w-28 h-28 border-zinc-500"
@@ -40,7 +53,7 @@ const HomePageMission = () => {
 							alt="Taxi Rank"
 							loading="lazy"
 							quality={80}
-							className="object-cover w-full aspect-video md:aspect-square rounded-2xl"
+							className="object-cover w-full h-full rounded-2xl"
 						/>
 					</div>
 				</div>

@@ -39,9 +39,9 @@ const ProjectPage = async ({params: {id}}:{params:{id:number}}) => {
 								<span className="font-medium">Project Scope:</span>{" "}
 								{project.scope}
 							</p>
-							<p className="text-2xl font-semibold">
+							{/* <p className="text-2xl font-semibold">
 								Value: {formatCurrency(total)}
-							</p>
+							</p> */}
 							<Separator className="my-3" />
 							<p className="text-lg">Project Phases</p>
 							<div className="grid grid-cols-1 gap-3 md:grid-cols-2">
@@ -51,9 +51,9 @@ const ProjectPage = async ({params: {id}}:{params:{id:number}}) => {
 										className="flex flex-col p-2 bg-yellow-400 rounded shadow-md"
 									>
 										<p className="text-xl font-semibold">{phase.title}</p>
-										<p className="text-lg font-medium">
+										{/* <p className="text-lg font-medium">
 											{formatCurrency(phase.value)}
-										</p>
+										</p> */}
 										<p className="text-lg">
 											Completed: {phase.completion_date}
 										</p>

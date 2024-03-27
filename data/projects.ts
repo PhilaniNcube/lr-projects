@@ -33,7 +33,7 @@ const projects = [
         completion_date: "June 2023",
       },
     ],
-    image: "/images/civil.webp"
+    image: "/images/civil-engineering.jpeg"
 
   },
    {
@@ -50,7 +50,7 @@ const projects = [
        completion_date: "March 2021",
       }
     ],
-    image: "/images/clinic.webp"
+    image: "/images/cement.webp"
   },
    {
     id: 3,
@@ -66,7 +66,7 @@ const projects = [
        completion_date: "September 2022",
       }
     ],
-    image: "/images/cement.webp"
+    image: "/images/joubertina.jpeg"
   },
    {
     id: 4,
@@ -82,7 +82,7 @@ const projects = [
        completion_date: "August 2020",
       }
     ],
-    image: "/images/paving.webp"
+    image: "/images/alfred.jpeg"
   },
    {
     id: 5,
@@ -140,7 +140,7 @@ const projects = [
         completion_date: "July 2019",
       },
     ],
-    image: "/images/road.webp"
+    image: "/images/naude.jpeg"
   },
    {
     id: 8,

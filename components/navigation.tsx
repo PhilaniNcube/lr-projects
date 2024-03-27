@@ -58,10 +58,10 @@ const Navigation = () => {
 								<Button
 									type="button"
 									variant="default"
-									className="flex items-center space-x-3 bg-white rounded-full text-zinc-700"
+									className="flex items-center p-6 space-x-3 bg-white rounded-full text-zinc-700"
 								>
-									<HamburgerMenuIcon className="w-8 h-8" />
-									<span>Menu</span>
+									<HamburgerMenuIcon className="w-8 h-8 text-yellow-600" />
+									<span className="text-lg text-black uppercase">Menu</span>
 								</Button>
 							</SheetTrigger>
 							<SheetContent>
