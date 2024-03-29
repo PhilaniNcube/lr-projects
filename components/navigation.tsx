@@ -36,10 +36,10 @@ const Navigation = () => {
   return (
 			<header
 				className={cn(
-					"fixed left-0 right-0 z-50 top-5 bg-transparent ",
-					scrollY > 100
-						? " backdrop-invert-0 shadow-md backdrop-filter backdrop-blur-lg bg-zinc-700/20"
-						: "",
+					"fixed left-0 right-0 z-50 bg-transparent transition-all duration-300 ease-in-out",
+					scrollY > 50
+						? " backdrop-invert-0 top-0 shadow-md backdrop-filter backdrop-blur-lg bg-zinc-700/70"
+						: "top-5 ",
 				)}
 			>
 				<div className={cn("container relative")}>
@@ -60,7 +60,7 @@ const Navigation = () => {
 									variant="default"
 									className="flex items-center p-6 space-x-3 bg-white rounded-full text-zinc-700"
 								>
-									<HamburgerMenuIcon className="w-8 h-8 text-yellow-600" />
+									<HamburgerMenuIcon className="w-8 h-8 text-brand" />
 									<span className="text-lg text-black uppercase">Menu</span>
 								</Button>
 							</SheetTrigger>

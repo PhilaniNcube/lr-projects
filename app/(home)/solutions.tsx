@@ -88,7 +88,7 @@ const Solutions = () => {
 							<h2 className="mb-4 text-3xl font-medium lg:text-5xl text-zinc-950 title">
 								Building Foundations, Delivering Success
 							</h2>
-							<p className="mb-6 text-sm text-yellow-600 description">
+							<p className="mb-6 text-sm text-brand description">
 								LR Projects offers a comprehensive range of services and
 								solutions, underpinned by a robust asset base, to meet the
 								diverse needs of our clients in the civil engineering and

@@ -9,7 +9,7 @@ const HomePageMission = () => {
 				<div className="grid grid-cols-5 gap-4">
 					<div className="flex flex-col justify-around col-span-5 md:col-span-3">
 						<p className="font-thin text-black text-md">Mission</p>
-						<h2 className="text-2xl text-yellow-600 md:text-3xl">
+						<h2 className="text-2xl text-brand md:text-3xl">
 							Building a <span className="underline">Legacy of Quality</span>
 						</h2>
 						<h3 className="mt-6 text-sm leading-6 text-balance ">

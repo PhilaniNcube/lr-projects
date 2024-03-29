@@ -70,14 +70,14 @@ const projects = [
   },
    {
     id: 4,
-    title: 'Paving of Amabhele Access Road',
+    title: 'Paving of Alfred Road',
     scope: "Construction of C4 layer, kerbing & channelling, and concrete pavers.",
     client: "Ndlambe Municipality",
     client_contact: "Vuyokazi Tshangana",
     client_contact_number: "078 570 7080",
     phases: [
       {
-         title: "Road Paving Port Alfred",
+         title: "Paving of Alfred Road",
         value:   2400000,
        completion_date: "August 2020",
       }

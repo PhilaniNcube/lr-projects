@@ -8,8 +8,8 @@ import Link from "next/link";
 const ProjectList = () => {
   return (
 			<section className="my-8">
-				<div className="container p-0 text-yellow-600">
-					<h2 className="mb-4 text-3xl lg:text-5xl">Our Projects</h2>
+				<div className="container p-0 ">
+					<h2 className="mb-4 text-3xl text-brand lg:text-5xl">Our Projects</h2>
 					<div className="grid grid-cols-1 gap-6 px-8 mt-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:px-0 @container">
 						{projects.map((project) => (
 							<div key={project.title} className="relative group ">

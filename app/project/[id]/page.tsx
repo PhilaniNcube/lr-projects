@@ -28,12 +28,12 @@ const ProjectPage = async ({params: {id}}:{params:{id:number}}) => {
 
   return (
 			<main>
-				<section className="container p-0 mt-8">
+				<section className="container p-0 mt-32">
 					<div className="grid grid-cols-1 gap-6 p-4 bg-white rounded-3xl md:grid-cols-2">
 						<div className="flex flex-col items-start justify-center space-y-3">
 							<h1 className="text-4xl font-bold">{project.title}</h1>
-							<p className="text-xl">
-								<span className="font-semibold">Client:</span> {project.client}
+							<p className="text-xl text-brand">
+								<span className="font-semibold ">Client:</span> {project.client}
 							</p>
 							<p className="text-md">
 								<span className="font-medium">Project Scope:</span>{" "}
@@ -48,7 +48,7 @@ const ProjectPage = async ({params: {id}}:{params:{id:number}}) => {
 								{project.phases.map((phase) => (
 									<div
 										key={phase.title}
-										className="flex flex-col p-2 bg-yellow-400 rounded shadow-md"
+										className="flex flex-col"
 									>
 										<p className="text-xl font-semibold">{phase.title}</p>
 										{/* <p className="text-lg font-medium">
@@ -61,7 +61,7 @@ const ProjectPage = async ({params: {id}}:{params:{id:number}}) => {
 								))}
 							</div>
 							<Separator className="my-3" />
-							<div className="flex items-start justify-start w-full space-x-4" >
+							<div className="flex items-start justify-start w-full space-x-4">
 								<p className="text-lg font-semibold">Client Contact:</p>
 								<div className="flex flex-col">
 									<p className="text-lg font-medium">

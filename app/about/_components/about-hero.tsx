@@ -1,7 +1,7 @@
 const AboutHero = () => {
   return (
-			<section className="py-8 md:py-16">
-				<div className="container p-0 bg-yellow-600 rounded-3xl">
+			<section className="py-8 mt-10 md:py-16">
+				<div className="container lg:p-0 bg-brand rounded-3xl">
 					<div className="grid grid-cols-1 gap-8 p-8 py-10 md:grid-cols-2">
 						<div className="w-full">
 							<h1 className="text-3xl text-white md:text-5xl ">About Us</h1>

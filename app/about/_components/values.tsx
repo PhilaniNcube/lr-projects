@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Values = () => {
   return (
-			<section className="mt-8">
-				<div className="container p-0 bg-white rounded-3xl">
+			<section className="">
+				<div className="container p-0 rounded-3xl">
 					<div className="p-6 lg:p-10">
-						<h2 className="text-3xl">Our Values</h2>
+						<h2 className="text-3xl font-medium md:text-4xl text-brand">Our Values</h2>
 						<div className="w-full mt-6">
 							<div className="grid grid-cols-1 gap-3 lg:gap-6 sm:grid-cols-2 lg:grid-cols-3">
 								{values.map((value) => (
