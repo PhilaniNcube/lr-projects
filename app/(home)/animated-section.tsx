@@ -50,7 +50,7 @@ const services = [
 			"LR Projects offers a range of plant hire services to meet the needs of our clients, ensuring that each project is completed efficiently and effectively",
 		items: [
 			"Tipper Trucks",
-			"Tail Cranes",
+			"TLBs",
 			"Water Tanker Trucks",
 			"Drum Rollers",
 			"Excavators",

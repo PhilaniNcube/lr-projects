@@ -36,22 +36,22 @@ const projects = [
     image: "/images/civil-engineering.jpeg"
 
   },
-   {
-    id: 2,
-    title: 'Provision of Construction Services',
-    scope: "Construction of office building and guard house, flooring, electrical and ICT installation, parking area, and stormwater drainage",
-    client: "Eastern Cape Dept of Public Works",
-    client_contact: "Loyisokazi Xanywa",
-    client_contact_number: "076 589 4807",
-    phases: [
-      {
-         title: "Construction of Komani Depot",
-        value:  11500000,
-       completion_date: "March 2021",
-      }
-    ],
-    image: "/images/cement.webp"
-  },
+  //  {
+  //   id: 2,
+  //   title: 'Provision of Construction Services',
+  //   scope: "Construction of office building and guard house, flooring, electrical and ICT installation, parking area, and stormwater drainage",
+  //   client: "Eastern Cape Dept of Public Works",
+  //   client_contact: "Loyisokazi Xanywa",
+  //   client_contact_number: "076 589 4807",
+  //   phases: [
+  //     {
+  //        title: "Construction of Komani Depot",
+  //       value:  11500000,
+  //      completion_date: "March 2021",
+  //     }
+  //   ],
+  //   image: "/images/building-services.jpeg"
+  // },
    {
     id: 3,
     title: 'Installation of new waterlines in Joubertina',
