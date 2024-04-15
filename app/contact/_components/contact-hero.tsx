@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import ContactForm from "./contact-form";
+
+export const metadata:Metadata = {
+  title: "Contact Us | LR Projects",
+  description: "We would love to hear from you",
+  keywords: 'construction, building, civil engineering, project management, construction management, construction company, construction services, construction projects, construction contractors, construction companies, construction industry, construction work, construction services, construction management services, construction project management, construction management companies, construction management services, construction management company, construction management firms, construction management consultants, construction management contractors, construction management services, construction management companies, construction management industry, construction management work'
+ }
 
 const ContactHero = () => {
   return (
