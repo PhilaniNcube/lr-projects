@@ -7,19 +7,18 @@ const ContactHero = () => {
 					<div className="grid grid-cols-1 gap-6 p-8 md:grid-cols-2 lg:gap-10">
 						<div className="w-full">
 							<h1 className="text-4xl">Contact Us</h1>
-							<p className="text-md my-2">We would love to hear from you.</p>
-							<p className="text-md my-2">Tel: +27(0)71 474 8919</p>
-							<a href="mailto:loyiso@lrprojects.co.za" className="text-md my-2">
+							<p className="my-2 text-md">We would love to hear from you.</p>
+							<p className="my-2 text-md">Tel: +27(0)71 474 8919</p>
+							<a href="mailto:loyiso@lrprojects.co.za" className="my-2 text-md">
 								Email: loyiso@lrprojects.co.za
 							</a>
 							<iframe
-                className="mt-6"
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.2345578235822!2d25.522871975870828!3d-33.93509482249597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7ad1269b85b6d7%3A0x36aaaa2f67baa343!2s76%20Blomme%20Ave%2C%20Western%20Hills%2C%20Gqeberha%2C%206025!5e0!3m2!1sen!2sza!4v1712171073807!5m2!1sen!2sza"
-								title="Google Maps"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1170.5469061444412!2d25.424132648418233!3d-33.92037629449022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7ad92e69be3613%3A0xe68122ebadf68518!2s76%20Blommelaan%2C%20Greenbushes%2C%20Gqeberha%2C%206390!5e0!3m2!1sen!2sza!4v1713200778513!5m2!1sen!2sza"
+                title="Google Maps"
 								width="600"
 								height="450"
-								style={{ border: 0 }}
-								allowFullScreen={false}
+								style={{border:0}}
+								allowFullScreen={true}
 								loading="lazy"
 								referrerPolicy="no-referrer-when-downgrade"
 							/>
