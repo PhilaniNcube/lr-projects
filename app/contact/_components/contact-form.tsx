@@ -3,6 +3,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { contactAction } from "@/actions/contact";
 
 export default function ContactForm() {
   return (
@@ -13,23 +14,23 @@ export default function ContactForm() {
 						possible.
 					</p>
 				</div>
-				<div className="space-y-4">
+				<form action={contactAction} className="space-y-4">
 					<div className="grid grid-cols-2 gap-4">
 						<div className="space-y-2">
-							<Label htmlFor="first-name">First name</Label>
+							<Label htmlFor="first_name">First name</Label>
 							<Input
 								className="border-b outline-none"
-								name="first-name"
-								id="first-name"
+								name="first_name"
+								id="first_name"
 								placeholder="Enter your first name"
 							/>
 						</div>
 						<div className="space-y-2">
-							<Label htmlFor="last-name">Last name</Label>
+							<Label htmlFor="last_name">Last name</Label>
 							<Input
 								className="border-b outline-none"
-								id="last-name"
-								name="last-name"
+								id="last_name"
+								name="last_name"
 								placeholder="Enter your last name"
 							/>
 						</div>
@@ -54,7 +55,7 @@ export default function ContactForm() {
 						/>
 					</div>
 					<Button>Send message</Button>
-				</div>
+				</form>
 			</div>
 		);
 }
