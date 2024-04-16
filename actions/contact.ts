@@ -1,5 +1,6 @@
 "use server"
 
+import { redirect } from 'next/navigation';
 import {Resend} from 'resend'
 
 
@@ -26,5 +27,5 @@ export async function contactAction(formData:FormData) {
     text: `Name ${first_name} ${last_name} \n Email: ${email} \n Message: ${message}`,
   });
 
-  return response;
+  redirect('/');
 }
