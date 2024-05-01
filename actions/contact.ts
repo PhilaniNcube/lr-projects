@@ -14,7 +14,7 @@ export async function contactAction(formData:FormData) {
   const message = formData.get('message') as string;
 
   const response = await resend.emails.send({
-    to: 'loyiso@lrprojects.co.za',
+    to: 'admin@lrprojects.co.za',
     from: 'dev@lrprojects.co.za',
     subject: `Contact form submission from ${first_name} ${last_name}`,
     html:`<div>
