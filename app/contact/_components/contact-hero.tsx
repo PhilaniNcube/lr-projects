@@ -16,7 +16,7 @@ const ContactHero = () => {
 						<div className="w-full">
 							<h1 className="text-4xl">Contact Us</h1>
 							<p className="my-2 text-md">We would love to hear from you.</p>
-							<p className="my-2 text-md">Tel: +27(0)71 474 8919</p>
+							<p className="my-2 text-md">Tel: +27(0)41 476 0789</p>
 							<Link href="mailto:admin@lrprojects.co.za" className="my-2 text-md">
 								Email: admin@lrprojects.co.za
 							</Link>
